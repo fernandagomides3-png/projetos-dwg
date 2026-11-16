@@ -1,0 +1,18 @@
+{
+  "name": "visualizador-dwg",
+  "version": "1.0.0",
+  "description": "Visualizador web de arquivos DWG/DXF com cálculo de áreas de polígonos",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/copy-vendor.mjs",
+    "dev": "node scripts/copy-vendor.mjs && node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "@mlightcad/libredwg-web": "0.9.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
